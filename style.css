@@ -1,0 +1,73 @@
+html {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Poppins", serif;
+   margin: 0;
+}
+
+.container {
+   height: 100vh;
+   margin: 0 auto;
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   width: 100vw;
+}
+
+.container > div {
+   left: 0;
+   position: absolute;
+   right: 0;
+   top: 20vh;
+}
+
+.one {
+   font-size: 4.5rem;
+}
+
+.two {
+   font-size: 1.2rem;
+}
+
+.three {
+   font-size: 3rem;
+}
+
+/* Four */
+.textbox {
+   border: 1px solid #aaa;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+   margin: 0 auto;
+   padding: 1rem;
+   position: relative;
+   width: 50%;
+}
+
+.textbox__chat {
+   margin: 0;
+   text-align: justify;
+}
+
+.textbox__chat span {
+   visibility: hidden;
+}
+
+.fake__button {
+   background-color: rgb(21, 161, 237);
+   border-radius: 3px;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   -ms-border-radius: 3px;
+   -o-border-radius: 3px;
+   bottom: -5px;
+   padding: 0.5rem 1rem;
+   position: absolute;
+   right: -5px;
+   bottom: -50px;
+}

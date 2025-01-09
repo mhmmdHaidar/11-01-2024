@@ -71,3 +71,57 @@ body {
    right: -5px;
    bottom: -50px;
 }
+
+/* Five */
+.five p {
+   font-size: 2rem;
+   left: 0;
+   position: absolute;
+   right: 0;
+}
+
+.idea__3 strong {
+   border-radius: 3px;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   -ms-border-radius: 3px;
+   -o-border-radius: 3px;
+   display: inline-block;
+   padding: 3px;
+}
+
+.idea__5 {
+   font-size: 3rem;
+}
+
+.idea__5 span,
+.idea__6 span {
+   display: inline-block;
+}
+
+.idea__6 span {
+   font-size: 10rem;
+}
+
+/* six */
+.six {
+   position: relative;
+   top: 10vh;
+   z-index: 1;
+}
+
+.profile {
+   display: inline-block;
+   height: 220px;
+   width: 220px;
+}
+
+.wish__hbd {
+   font-size: 2rem;
+   margin: 3px 0 0;
+}
+
+.wish__text {
+   font-size: 2rem;
+   font-weight: lighter;
+}
